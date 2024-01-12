@@ -1,14 +1,31 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page title</title>
-    <link rel="stylesheet" href="./sass/index.scss" />
-    <script type="module" src="./index.js"></script>
+    
+    <script src="https://unpkg.com/slim-select@latest/dist/slimselect.min.js"></script>
+    <link href="https://unpkg.com/slim-select@latest/dist/slimselect.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="./indesx.css">
+    
+    <title>Homework 10</title>
   </head>
   <body>
-    <!-- ❗️❗️❗️ Add partials like so for every page -->
-    <include src="./partials/example.html"></include>
+    <div class="card">
+
+      <select class="breed-select"></select>
+      <p class="noselect">No breed selectd</p>
+      <p class="loader"><span class="loader"></span></p>
+      <div class="cat-info"></div>
+
+    </div>
+      <!-- breed-select -->
+    
+    
+    
+      <script src="index.js" type="module"></script>
+   
+
+   
   </body>
 </html>
