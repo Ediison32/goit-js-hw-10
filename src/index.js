@@ -67,5 +67,6 @@ select.addEventListener('change', event =>{
 
 function imgfecht (ip){
     loader.style.display = 'block'
+    catInfo.innerHTML = ' '
     return axios.get(`https://api.thecatapi.com/v1/images/${ip}`)
 }
